@@ -11,10 +11,12 @@ class Calculator extends Component {
 
   render() {
     return (
-      <div>
-        {
-        getButtonTexts().map((button) => <Button key={button.id} text={button.text} />)
-      }
+      <div className="calculatorWrapper">
+        <div className="calculator">
+          <div className="calculatorKeyboard">
+            {getButtonTexts().map((button) => <Button key={button.id} text={button.text} />)}
+          </div>
+        </div>
       </div>
     );
   }
