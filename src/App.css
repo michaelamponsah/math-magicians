@@ -1,39 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculatorWrapper {
+  padding: 1em 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calculator {
+  width: 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.calculatorKeyboard {
+  width: 100%;
+  display: grid;
+  gap: 0.065em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.calculatorKeyboard > button {
+  height: 2.5rem;
+  border: none;
+  background-color: #b4b3b3;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.calculatorKeyboard :nth-child(17) {
+  grid-column: 1/3;
+}
+
+.calculatorKeyboard :nth-child(4n + 0) {
+  background-color: #f68c34;
+}
+
+.calculatorKeyboard :nth-child(19) {
+  background-color: #f68c34;
+}
+
+.calculatorInputField {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #6d6c6c;
+  border: none;
+  text-align: end;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.calculatorInputField:focus {
+  outline: none;
 }
