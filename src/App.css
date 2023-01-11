@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +13,7 @@
 }
 
 .calculator {
-  width: 30%;
+  width: 25%;
 }
 
 .calculatorKeyboard {
@@ -39,4 +43,19 @@ button:hover {
 
 .calculatorKeyboard :nth-child(19) {
   background-color: #f68c34;
-} 
+}
+
+.calculatorInputField {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #6d6c6c;
+  border: none;
+  text-align: end;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.calculatorInputField:focus {
+  outline: none;
+}

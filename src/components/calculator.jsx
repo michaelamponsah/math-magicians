@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from './calculatorButton';
 import getButtonTexts from '../utils/calculatorButtonTexts';
+import Input from './calculatorInputField';
 
 class Calculator extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Calculator extends Component {
     return (
       <div className="calculatorWrapper">
         <div className="calculator">
+          <Input />
           <div className="calculatorKeyboard">
             {getButtonTexts().map((button) => <Button key={button.id} text={button.text} />)}
           </div>
