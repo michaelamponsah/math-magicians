@@ -4,20 +4,20 @@ import PropTypes from 'prop-types';
 class Button extends Component {
   constructor(props) {
     super(props);
-
     this.state = { };
   }
 
   render() {
-    const { text } = this.props;
+    const { text, onButtonClick } = this.props;
     return (
-      <button type="button">{text}</button>
+      <button type="button" onClick={(e) => onButtonClick(e)}>{text}</button>
     );
   }
 }
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  onButtonClick: PropTypes.func.isRequired,
 };
 
 export default Button;
