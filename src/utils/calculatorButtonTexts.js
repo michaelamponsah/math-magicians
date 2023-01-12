@@ -13,7 +13,7 @@ const buttonTexts = [
   },
   {
     id: 4,
-    text: '/',
+    text: '÷',
   },
   {
     id: 5,
@@ -29,7 +29,7 @@ const buttonTexts = [
   },
   {
     id: 8,
-    text: 'X',
+    text: 'x',
   },
   {
     id: 9,
