@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-}
-
 .calculatorWrapper {
   padding: 1em 0;
   display: flex;
