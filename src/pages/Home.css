@@ -1,0 +1,13 @@
+.hero-section {
+  padding: 1.5em 0;
+}
+
+.hero-section > h1 {
+  margin: 0.5em 0;
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  font-size: 1.4rem;
+  margin: 0.5em 0;
+}

@@ -1,4 +1,17 @@
 header {
+  padding: 1em 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #fff;
+}
+
+header .logo {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #f68c34;
+  font-weight: bold;
+}
+
+.nav-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -10,4 +23,13 @@ ul {
 
 ul li {
   margin-left: 1.5em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #6d6c6c;
+}
+
+.nav-link:active {
+  color: #f68c34;
 }

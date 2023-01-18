@@ -5,7 +5,7 @@ import './navbar.css';
 const links = [
   {
     id: 1,
-    path: '/home',
+    path: '/',
     navText: 'Home',
   },
   {
@@ -22,16 +22,18 @@ const links = [
 
 const Navbar = () => (
   <header>
-    <h1>Math Magicians</h1>
-    <nav>
-      <ul>
-        {links.map((link) => (
-          <li key={link.id}>
-            <NavLink to={link.path}>{link.navText}</NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className="container nav-wrapper">
+      <span className="logo">Math Magicians</span>
+      <nav>
+        <ul>
+          {links.map((link) => (
+            <li key={link.id}>
+              <NavLink to={link.path} className="nav-link">{link.navText}</NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
   </header>
 );
 
