@@ -1,0 +1,9 @@
+.calculator-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0;
+}
+
+.calculator-wrapper p {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,19 @@
+.quotes-wapper {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 60%;
+  padding: 2em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+.author {
+  color: #f68c34;
+  font-style: italic;
+}
