@@ -47,8 +47,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-<!-- - You may see a live demo [here](https://michaelamponsah.github.io/todo-app/dist) -->
-- To be updated soon.
+You may see a live demo [here](https://math-magicians-3ijg.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
